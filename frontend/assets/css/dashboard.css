@@ -1,0 +1,58 @@
+/* Dashboard layout */
+.sidenav-menu {
+    display: none !important;
+}
+
+.page-content,
+.app-topbar {
+    margin-left: 0 !important;
+}
+
+[data-layout="horizontal"] .page-content {
+    margin-top: 0 !important;
+}
+
+.wrapper {
+    padding-left: 0 !important;
+}
+
+.btn-category-save {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #313a46;
+    --bs-btn-border-color: #313a46;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #313a46;
+    --bs-btn-hover-border-color: #313a46;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #313a46;
+    --bs-btn-active-border-color: #313a46;
+}
+
+.btn-category-update {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #97caea;
+    --bs-btn-border-color: #97caea;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #97caea;
+    --bs-btn-hover-border-color: #97caea;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #97caea;
+    --bs-btn-active-border-color: #97caea;
+    --bs-btn-focus-shadow-rgb: 151, 202, 234;
+    border-color: #97caea !important;
+    -webkit-box-shadow: #fff 3px 3px 0 0, #97caea 3px 3px 0 1px !important;
+    box-shadow: #fff 3px 3px 0 0, #97caea 3px 3px 0 1px !important;
+}
+
+.btn-category-update:hover,
+.btn-category-update:focus,
+.btn-category-update:active {
+    border-color: #97caea !important;
+    -webkit-box-shadow: #97caea 3px 3px 0 0 !important;
+    box-shadow: #97caea 3px 3px 0 0 !important;
+}
+
+.app-topbar .logo img {
+    height: 42px !important;
+    width: auto !important;
+}

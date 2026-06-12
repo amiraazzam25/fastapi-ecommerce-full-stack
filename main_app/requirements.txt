@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pyodbc
+python-dotenv
+pydantic
+pydantic-settings
+passlib[bcrypt]==1.7.4
+bcrypt==3.2.2
+python-jose[cryptography]
+email-validator
+redis[asyncio]>=5.0.0
+python-multipart
+prometheus-fastapi-instrumentator
+httpx

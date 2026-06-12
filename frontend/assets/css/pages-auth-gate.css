@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f4f8;
+}
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 76px 16px 32px;
+}
+
+.auth-status {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: min(520px, calc(100vw - 32px));
+  min-height: 42px;
+  padding: 10px 18px;
+  border: 2px solid #323232;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 4px 4px #323232;
+  color: #323232;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  z-index: 5;
+}
+
+.auth-status.is-error {
+  background: #ffe5e5;
+}
+
+.auth-status.is-success {
+  background: #e7f8ed;
+}
+
+.auth-status.is-info {
+  background: #e9f3ff;
+}
+
+.d-none {
+  display: none !important;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */
+.wrapper {
+  --input-focus: #2d8cf0;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --bg-color-alt: #666;
+  --main-color: #323232;
+  --card-width: 390px;
+  --card-height: 455px;
+}
+
+.auth-wrapper {
+  width: 100%;
+  min-height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-24px);
+}
+
+/* switch card */
+.switch {
+  position: relative;
+  display: block;
+  width: min(var(--card-width), calc(100vw - 48px));
+  height: calc(var(--card-height) + 58px);
+}
+
+.card-side {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.card-side::before {
+  position: absolute;
+  content: 'Log in';
+  left: -70px;
+  top: 0;
+  width: 100px;
+  text-decoration: underline;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.card-side::after {
+  position: absolute;
+  content: 'Sign up';
+  left: 70px;
+  top: 0;
+  width: 100px;
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.toggle {
+  opacity: 0;
+  width: 50px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25px);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.slider {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: calc(50% - 25px);
+  width: 50px;
+  height: 20px;
+  background-color: var(--bg-color);
+  transition: 0.3s;
+}
+
+.slider:before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  left: -2px;
+  bottom: 2px;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 0 var(--main-color);
+  transition: 0.3s;
+}
+
+.toggle:checked + .slider {
+  background-color: var(--input-focus);
+}
+
+.toggle:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+.toggle:checked ~ .card-side:before {
+  text-decoration: none;
+}
+
+.toggle:checked ~ .card-side:after {
+  text-decoration: underline;
+}
+
+/* card */
+.flip-card__inner {
+  width: 100%;
+  max-width: var(--card-width);
+  height: var(--card-height);
+  position: absolute;
+  top: 58px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: transparent;
+  perspective: 1000px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.toggle:checked ~ .flip-card__inner {
+  transform: rotateY(180deg);
+}
+
+.toggle:checked ~ .flip-card__front {
+  box-shadow: none;
+}
+
+.flip-card__front,
+.flip-card__back {
+  width: 100%;
+  min-height: 100%;
+  padding: 28px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background: lightgrey;
+  gap: 20px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+}
+
+.flip-card__back {
+  transform: rotateY(180deg);
+}
+
+.flip-card__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  margin: 18px 0 22px 0;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.flip-card__input {
+  width: 315px;
+  max-width: 100%;
+  height: 48px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+}
+
+.flip-card__input::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+
+.flip-card__input:focus {
+  border: 2px solid var(--input-focus);
+}
+
+.flip-card__btn:active,
+.button-confirm:active {
+  box-shadow: 0px 0px var(--main-color);
+  transform: translate(3px, 3px);
+}
+
+.flip-card__btn {
+  margin: 22px 0 18px 0;
+  width: 150px;
+  height: 46px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.flip-card__btn:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+@media (max-width: 420px) {
+  .wrapper {
+    --card-width: 300px;
+    --card-height: 350px;
+  }
+
+  .auth-page {
+    padding-top: 92px;
+  }
+
+  .auth-wrapper {
+    transform: none;
+  }
+
+  .flip-card__input {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .flip-card__btn {
+    width: 120px;
+    height: 40px;
+    font-size: 17px;
+  }
+}

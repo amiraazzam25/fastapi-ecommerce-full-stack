@@ -1,0 +1,7 @@
+.env
+
+__pycache__/
+*.py[cod]
+.venv/
+env/
+main_app/app.log

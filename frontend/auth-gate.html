@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Login | HNU Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="HNU Store authentication gateway" name="description" />
+
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/pages-auth-gate.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main class="auth-page">
+        <div class="auth-status" id="authStatus">Checking your session...</div>
+
+        <!-- From Uiverse.io by andrew-demchenk0 -->
+        <div class="wrapper auth-wrapper d-none" id="authCard">
+            <div class="card-switch">
+                <label class="switch">
+                    <input type="checkbox" class="toggle" id="authToggle">
+                    <span class="slider"></span>
+                    <span class="card-side"></span>
+                    <div class="flip-card__inner">
+                        <div class="flip-card__front">
+                            <div class="title">Log in</div>
+                            <form class="flip-card__form" id="loginForm" action="">
+                                <input class="flip-card__input" id="loginEmail" name="email" placeholder="Email" type="email" autocomplete="email">
+                                <input class="flip-card__input" id="loginPassword" name="password" placeholder="Password" type="password" autocomplete="current-password">
+                                <button class="flip-card__btn" type="submit">Let's go!</button>
+                            </form>
+                        </div>
+                        <div class="flip-card__back">
+                            <div class="title">Sign up</div>
+                            <form class="flip-card__form" id="signupForm" action="">
+                                <input class="flip-card__input" id="signupName" placeholder="Name" type="text" autocomplete="name">
+                                <input class="flip-card__input" id="signupEmail" name="email" placeholder="Email" type="email" autocomplete="email">
+                                <input class="flip-card__input" id="signupPassword" name="password" placeholder="Password" type="password" autocomplete="new-password">
+                                <button class="flip-card__btn" type="submit">Confirm!</button>
+                            </form>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </main>
+
+    <script src="assets/js/pages/auth-gate.js"></script>
+</body>
+
+</html>

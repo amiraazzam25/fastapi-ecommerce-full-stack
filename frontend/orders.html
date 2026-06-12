@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-layout="topnav">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Orders | HNU Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script src="assets/js/config.js"></script>
+    <link href="assets/css/vendor.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/shop.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="store-page" data-store-page="orders">
+    <div class="wrapper">
+        <header class="app-topbar">
+            <div class="page-container topbar-menu">
+                <a href="home" class="logo">
+                    <span class="logo-light"><span class="logo-lg"><img src="assets/images/newlogo.png" alt="logo"></span></span>
+                    <span class="logo-dark"><span class="logo-lg"><img src="assets/images/newlogo.png" alt="logo"></span></span>
+                </a>
+                <nav class="store-nav store-nav-search">
+                    <form class="store-topbar-search" id="topbarSearchForm" autocomplete="off">
+                        <i class="ti ti-search"></i>
+                        <input id="topbarSearchInput" type="search" placeholder="Search products">
+                        <div class="store-live-results d-none" id="topbarSearchResults"></div>
+                    </form>
+                </nav>
+                <div class="d-flex align-items-center gap-2 store-actions">
+                    <div class="topbar-item d-none d-sm-flex">
+                        <button class="topbar-link btn btn-outline-primary btn-icon" id="light-dark-mode" type="button">
+                            <i class="ti ti-moon fs-22"></i>
+                        </button>
+                    </div>
+                    <div class="topbar-item">
+                        <a class="topbar-link btn btn-outline-primary btn-icon position-relative" href="cart" aria-label="Cart">
+                            <i class="ti ti-shopping-cart fs-22"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-danger store-cart-badge" id="cartCountBadge">0</span>
+                        </a>
+                    </div>
+                    <div class="topbar-item">
+                        <div class="dropdown">
+                            <button class="topbar-link btn btn-outline-primary dropdown-toggle drop-arrow-none" data-bs-toggle="dropdown" data-bs-offset="0,22" type="button" aria-haspopup="false" aria-expanded="false">
+                                <span class="d-flex align-items-center gap-2">
+                                    <i class="ti ti-user-circle fs-22"></i>
+                                    <span class="d-none d-md-block fw-semibold store-user-name">Customer</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a href="profile" class="dropdown-item">
+                                    <i class="ti ti-user-hexagon me-1 fs-17 align-middle"></i>
+                                    <span class="align-middle">Profile</span>
+                                </a>
+                                <a href="orders" class="dropdown-item">
+                                    <i class="ti ti-package me-1 fs-17 align-middle"></i>
+                                    <span class="align-middle">Orders</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="javascript:void(0);" class="dropdown-item text-danger" id="logoutBtn">
+                                    <i class="ti ti-logout me-1 fs-17 align-middle"></i>
+                                    <span class="align-middle">Logout</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="page-content">
+            <div class="page-container">
+                <div class="page-title-head d-flex align-items-sm-center flex-sm-row flex-column gap-2">
+                    <div class="flex-grow-1">
+                        <h4 class="fs-18 text-uppercase fw-bold mb-0">My Orders</h4>
+                        <div class="text-muted">Track and cancel pending orders.</div>
+                    </div>
+                </div>
+
+                <div class="alert d-none store-alert" id="storeAlert" role="alert"></div>
+
+                <div class="card mt-3">
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover table-nowrap table-centered mb-0">
+                                <thead class="bg-light-subtle">
+                                    <tr>
+                                        <th>Order ID</th>
+                                        <th>Products</th>
+                                        <th>Total</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                        <th class="text-end">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersTableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/pages/shop-api.js"></script>
+</body>
+
+</html>

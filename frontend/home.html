@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-layout="topnav">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HNU Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <script src="assets/js/config.js"></script>
+    <link href="assets/css/vendor.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/shop.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="store-page" data-store-page="home">
+    <div class="wrapper">
+        <header class="app-topbar">
+            <div class="page-container topbar-menu">
+                <a href="home" class="logo">
+                    <span class="logo-light"><span class="logo-lg"><img src="assets/images/newlogo.png" alt="logo"></span></span>
+                    <span class="logo-dark"><span class="logo-lg"><img src="assets/images/newlogo.png" alt="logo"></span></span>
+                </a>
+                <nav class="store-nav store-nav-search">
+                    <form class="store-topbar-search" id="topbarSearchForm" autocomplete="off">
+                        <i class="ti ti-search"></i>
+                        <input id="topbarSearchInput" type="search" placeholder="Search products">
+                        <div class="store-live-results d-none" id="topbarSearchResults"></div>
+                    </form>
+                </nav>
+                <div class="d-flex align-items-center gap-2 store-actions">
+                    <div class="topbar-item d-none d-sm-flex">
+                        <button class="topbar-link btn btn-outline-primary btn-icon" id="light-dark-mode" type="button">
+                            <i class="ti ti-moon fs-22"></i>
+                        </button>
+                    </div>
+                    <div class="topbar-item">
+                        <a class="topbar-link btn btn-outline-primary btn-icon position-relative" href="cart" aria-label="Cart">
+                            <i class="ti ti-shopping-cart fs-22"></i>
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-danger store-cart-badge" id="cartCountBadge">0</span>
+                        </a>
+                    </div>
+                    <div class="topbar-item">
+                        <div class="dropdown">
+                            <button class="topbar-link btn btn-outline-primary dropdown-toggle drop-arrow-none" data-bs-toggle="dropdown" data-bs-offset="0,22" type="button" aria-haspopup="false" aria-expanded="false">
+                                <span class="d-flex align-items-center gap-2">
+                                    <i class="ti ti-user-circle fs-22"></i>
+                                    <span class="d-none d-md-block fw-semibold store-user-name">Customer</span>
+                                </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a href="profile" class="dropdown-item">
+                                    <i class="ti ti-user-hexagon me-1 fs-17 align-middle"></i>
+                                    <span class="align-middle">Profile</span>
+                                </a>
+                                <a href="orders" class="dropdown-item">
+                                    <i class="ti ti-package me-1 fs-17 align-middle"></i>
+                                    <span class="align-middle">Orders</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a href="javascript:void(0);" class="dropdown-item text-danger" id="logoutBtn">
+                                    <i class="ti ti-logout me-1 fs-17 align-middle"></i>
+                                    <span class="align-middle">Logout</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="page-content">
+            <div class="page-container">
+                <div class="page-title-head d-flex align-items-sm-center flex-sm-row flex-column gap-2">
+                    <div class="flex-grow-1">
+                        <h4 class="fs-18 text-uppercase fw-bold mb-0">HNU Store</h4>
+                        <div class="text-muted">Welcome, <span class="store-user-name">Customer</span></div>
+                    </div>
+                    <a href="products" class="btn btn-soft-primary"><i class="ti ti-layout-grid me-1"></i> All Products</a>
+                </div>
+
+                <div class="alert d-none store-alert" id="storeAlert" role="alert"></div>
+
+                <div class="store-home-shell mt-3">
+                    <div class="row g-3 align-items-stretch">
+                        <div class="col-xl-9">
+                            <div id="storeHeroCarousel" class="carousel slide store-hero h-100" data-bs-ride="carousel">
+                                <div class="carousel-indicators store-hero-indicators">
+                                    <button type="button" data-bs-target="#storeHeroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#storeHeroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#storeHeroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="4500">
+                                        <div class="store-hero-slide store-hero-slide-1">
+                                            <div class="store-hero-content">
+                                                <span class="store-kicker">This Week Only</span>
+                                                <h1>Fresh Picks For Every Cart</h1>
+                                                <p>Shop new arrivals, daily essentials, and limited offers from one clean store experience.</p>
+                                                <div class="d-flex flex-wrap align-items-center gap-2">
+                                                    <a class="btn btn-primary" href="#featuredProducts"><i class="ti ti-shopping-bag me-1"></i> Shop Now</a>
+                                                    <span class="store-hero-price">From $19.99</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4500">
+                                        <div class="store-hero-slide store-hero-slide-2">
+                                            <div class="store-hero-content">
+                                                <span class="store-kicker">Weekend Deals</span>
+                                                <h1>Save More On Best Sellers</h1>
+                                                <p>Find the products customers keep coming back for, with prices made for quick checkout.</p>
+                                                <div class="d-flex flex-wrap align-items-center gap-2">
+                                                    <a class="btn btn-primary" href="products"><i class="ti ti-discount-2 me-1"></i> View Deals</a>
+                                                    <span class="store-hero-price">Up to 30% off</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="4500">
+                                        <div class="store-hero-slide store-hero-slide-3">
+                                            <div class="store-hero-content">
+                                                <span class="store-kicker">Fast Checkout</span>
+                                                <h1>Everything Ready To Order</h1>
+                                                <p>Browse by category, add items to your cart, and track your orders from your account.</p>
+                                                <div class="d-flex flex-wrap align-items-center gap-2">
+                                                    <a class="btn btn-primary" href="cart"><i class="ti ti-shopping-cart me-1"></i> Open Cart</a>
+                                                    <span class="store-hero-price">Secure orders</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3">
+                            <aside class="store-side-deals h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div>
+                                        <span class="store-kicker text-danger">Hot Offers</span>
+                                        <h4 class="header-title mb-0">3 Products On Sale</h4>
+                                    </div>
+                                    <a href="products" class="btn btn-soft-primary btn-sm">All</a>
+                                </div>
+                                <div class="store-deals-list" id="homeDealsList">
+                                    <div class="text-muted text-center py-4">Loading deals...</div>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+
+                    <div class="store-promo-grid mt-3">
+                        <a class="store-mini-banner store-mini-banner-1" href="products">
+                            <span class="store-kicker">New Collection</span>
+                            <strong>Upgrade your daily shopping list</strong>
+                            <span>Shop Now <i class="ti ti-arrow-right"></i></span>
+                        </a>
+                        <a class="store-mini-banner store-mini-banner-2" href="#featuredProducts">
+                            <span class="store-kicker">Top Categories</span>
+                            <strong>Find products by department</strong>
+                            <span>Explore <i class="ti ti-arrow-right"></i></span>
+                        </a>
+                        <a class="store-mini-banner store-mini-banner-3" href="orders">
+                            <span class="store-kicker">Order Tracking</span>
+                            <strong>Review every order in seconds</strong>
+                            <span>My Orders <i class="ti ti-arrow-right"></i></span>
+                        </a>
+                    </div>
+
+                    <section class="store-section-block mt-4" id="featuredProducts">
+                        <div class="store-section-head">
+                            <div>
+                                <span class="store-kicker text-danger">Latest Deals</span>
+                                <h4 class="fs-18 fw-bold mb-0">Featured Products</h4>
+                            </div>
+
+                        </div>
+
+                        <div class="row g-3 align-items-stretch">
+                            <div class="col-xl-9 d-flex flex-column">
+                                <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-3 flex-grow-1" id="productsGrid"></div>
+                            </div>
+                            <div class="col-xl-3 d-flex flex-column">
+                                <a class="store-vertical-promo flex-grow-1" href="products">
+                                    <span class="store-kicker text-danger">On Sale This Week</span>
+                                    <strong>Build your cart with better prices today</strong>
+                                    <span>Shop Now <i class="ti ti-arrow-right"></i></span>
+                                </a>
+                                <div class="store-benefits-panel mt-3">
+                                    <div class="store-benefit-item">
+                                        <i class="ti ti-truck-delivery"></i>
+                                        <div>
+                                            <strong>Fast Shipment</strong>
+                                            <span>Orders move quickly from cart to doorstep.</span>
+                                        </div>
+                                    </div>
+                                    <div class="store-benefit-item">
+                                        <i class="ti ti-shield-check"></i>
+                                        <div>
+                                            <strong>Secure Payment</strong>
+                                            <span>Checkout is protected by your account token.</span>
+                                        </div>
+                                    </div>
+                                    <div class="store-benefit-item">
+                                        <i class="ti ti-refresh"></i>
+                                        <div>
+                                            <strong>Easy Follow Up</strong>
+                                            <span>Track, cancel, or review orders anytime.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="store-weekly-deal mt-4" id="weeklyDealBody">
+                        <div class="text-muted text-center py-4">Loading weekly deal...</div>
+                    </section>
+
+                    <div class="row g-3 mt-1">
+                        <div class="col-md-6">
+                            <a class="store-promo-card store-promo-card-1" href="products">
+                                <span class="store-kicker text-danger">On Sale This Week</span>
+                                <strong>A new level of comfort for every purchase</strong>
+                                <span>Shop Now <i class="ti ti-arrow-right"></i></span>
+                            </a>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="store-promo-card store-promo-card-2" href="products">
+                                <span class="store-kicker text-danger">New Arrivals</span>
+                                <strong>Discover different product types available now</strong>
+                                <span>Shop Now <i class="ti ti-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <section class="store-section-block mt-4">
+                        <div class="store-section-head">
+                            <div>
+                                <span class="store-kicker text-danger">More Picks</span>
+                                <h4 class="fs-18 fw-bold mb-0">Recommended Deals</h4>
+                            </div>
+                            <a href="products" class="btn btn-link p-0">View All <i class="ti ti-arrow-right"></i></a>
+                        </div>
+                        <div class="row row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-1 g-3" id="latestDealsGrid">
+                            <div class="col-12">
+                                <div class="store-empty d-flex align-items-center justify-content-center">
+                                    <div class="text-center text-muted">Loading recommendations...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <a class="store-wide-banner mt-4" href="products">
+                        <span class="store-kicker text-danger">Big Store Offer</span>
+                        <strong>Get the right product at the right price for your cart</strong>
+                        <span>Shop Now <i class="ti ti-arrow-right"></i></span>
+                    </a>
+
+                    <section class="store-section-block mt-4">
+                        <div class="store-section-head">
+                            <div>
+                                <span class="store-kicker text-danger">Store News</span>
+                                <h4 class="fs-18 fw-bold mb-0">Our Latest Updates</h4>
+                            </div>
+                        </div>
+                        <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 g-3">
+                            <div class="col">
+                                <article class="store-news-card">
+                                    <img src="assets/images/small/small-4.jpg" alt="Seasonal offers">
+                                    <div>
+                                        <span>Deals</span>
+                                        <h5>Seasonal offers are now live</h5>
+                                        <p>Fresh discounts are available across the store this week.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col">
+                                <article class="store-news-card">
+                                    <img src="assets/images/small/small-5.jpg" alt="New products">
+                                    <div>
+                                        <span>Products</span>
+                                        <h5>New products added daily</h5>
+                                        <p>Browse the latest arrivals from the dashboard catalog.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col">
+                                <article class="store-news-card">
+                                    <img src="assets/images/small/small-6.jpg" alt="Orders">
+                                    <div>
+                                        <span>Orders</span>
+                                        <h5>Track your order status</h5>
+                                        <p>Follow pending, shipped, and canceled orders in one page.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col">
+                                <article class="store-news-card">
+                                    <img src="assets/images/small/small-7.jpg" alt="Shopping cart">
+                                    <div>
+                                        <span>Cart</span>
+                                        <h5>Checkout when cart service is ready</h5>
+                                        <p>Your store flow is connected to the backend cart API.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="productDetailsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-2 border-dark">
+                <div class="modal-header border-bottom border-2 border-dark">
+                    <h5 class="modal-title" id="productDetailsTitle">Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="productDetailsBody"></div>
+                <div class="modal-footer border-top border-2 border-dark">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="productDetailsAddBtn"><i class="ti ti-shopping-cart me-1"></i> Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/pages/shop-api.js"></script>
+</body>
+
+</html>

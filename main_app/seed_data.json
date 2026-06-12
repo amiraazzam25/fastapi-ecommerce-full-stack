@@ -1,0 +1,986 @@
+{
+  "categories": [
+    {
+      "name": "Electronics",
+      "description": "Smartphones, laptops, and other electronic devices"
+    },
+    {
+      "name": "Home Appliances",
+      "description": "Kitchen and home cleaning appliances"
+    },
+    {
+      "name": "Accessories",
+      "description": "Cables, chargers, cases, and more"
+    },
+    {
+      "name": "Gaming",
+      "description": "Consoles, games, and gaming peripherals"
+    },
+    {
+      "name": "Smart Home",
+      "description": "Connected home devices and sensors"
+    }
+  ],
+  "products": [
+    {
+      "name": "Pro Smartphone X6",
+      "description": "Experience the new standard with our pro smartphone. Perfect for everyday use.",
+      "price": 1111.37,
+      "stock": 94,
+      "img_path": "images/products/smartphone-pro-6.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Premium Laptop X3",
+      "description": "Experience the new standard with our premium laptop. Perfect for everyday use.",
+      "price": 1467.79,
+      "stock": 209,
+      "img_path": "images/products/laptop-premium-3.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Smart Bluetooth Speaker X6",
+      "description": "Experience the new standard with our smart bluetooth speaker. Perfect for everyday use.",
+      "price": 277.88,
+      "stock": 43,
+      "img_path": "images/products/bluetooth-speaker-smart-6.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Ultra Laptop X11",
+      "description": "Experience the new standard with our ultra laptop. Perfect for everyday use.",
+      "price": 1185.13,
+      "stock": 236,
+      "img_path": "images/products/laptop-ultra-11.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Ultra Tablet X11",
+      "description": "Experience the new standard with our ultra tablet. Perfect for everyday use.",
+      "price": 456.7,
+      "stock": 99,
+      "img_path": "images/products/tablet-ultra-11.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Smart Wireless Earbuds X2",
+      "description": "Experience the new standard with our smart wireless earbuds. Perfect for everyday use.",
+      "price": 474.24,
+      "stock": 179,
+      "img_path": "images/products/wireless-earbuds-smart-2.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Lite Smartphone X12",
+      "description": "Experience the new standard with our lite smartphone. Perfect for everyday use.",
+      "price": 906.85,
+      "stock": 170,
+      "img_path": "images/products/smartphone-lite-12.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Ultra Laptop X15",
+      "description": "Experience the new standard with our ultra laptop. Perfect for everyday use.",
+      "price": 844.83,
+      "stock": 94,
+      "img_path": "images/products/laptop-ultra-15.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Lite Monitor X5",
+      "description": "Experience the new standard with our lite monitor. Perfect for everyday use.",
+      "price": 877.77,
+      "stock": 20,
+      "img_path": "images/products/monitor-lite-5.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Lite Smartwatch X4",
+      "description": "Experience the new standard with our lite smartwatch. Perfect for everyday use.",
+      "price": 1395.92,
+      "stock": 205,
+      "img_path": "images/products/smartwatch-lite-4.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Ultra Smartwatch X15",
+      "description": "Experience the new standard with our ultra smartwatch. Perfect for everyday use.",
+      "price": 1228.36,
+      "stock": 23,
+      "img_path": "images/products/smartwatch-ultra-15.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Smart Laptop X9",
+      "description": "Experience the new standard with our smart laptop. Perfect for everyday use.",
+      "price": 855.17,
+      "stock": 249,
+      "img_path": "images/products/laptop-smart-9.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Advanced Smartwatch X8",
+      "description": "Experience the new standard with our advanced smartwatch. Perfect for everyday use.",
+      "price": 1382.88,
+      "stock": 109,
+      "img_path": "images/products/smartwatch-advanced-8.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Max Smartwatch X3",
+      "description": "Experience the new standard with our max smartwatch. Perfect for everyday use.",
+      "price": 248.63,
+      "stock": 290,
+      "img_path": "images/products/smartwatch-max-3.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Max Laptop X4",
+      "description": "Experience the new standard with our max laptop. Perfect for everyday use.",
+      "price": 431.0,
+      "stock": 134,
+      "img_path": "images/products/laptop-max-4.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Max Monitor X1",
+      "description": "Experience the new standard with our max monitor. Perfect for everyday use.",
+      "price": 1140.33,
+      "stock": 11,
+      "img_path": "images/products/monitor-max-1.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Premium Wireless Earbuds X10",
+      "description": "Experience the new standard with our premium wireless earbuds. Perfect for everyday use.",
+      "price": 671.24,
+      "stock": 74,
+      "img_path": "images/products/wireless-earbuds-premium-10.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Max Bluetooth Speaker X12",
+      "description": "Experience the new standard with our max bluetooth speaker. Perfect for everyday use.",
+      "price": 664.28,
+      "stock": 88,
+      "img_path": "images/products/bluetooth-speaker-max-12.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Advanced Bluetooth Speaker X6",
+      "description": "Experience the new standard with our advanced bluetooth speaker. Perfect for everyday use.",
+      "price": 1451.29,
+      "stock": 149,
+      "img_path": "images/products/bluetooth-speaker-advanced-6.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Smart Monitor X6",
+      "description": "Experience the new standard with our smart monitor. Perfect for everyday use.",
+      "price": 861.17,
+      "stock": 244,
+      "img_path": "images/products/monitor-smart-6.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Compact Tablet X13",
+      "description": "Experience the new standard with our compact tablet. Perfect for everyday use.",
+      "price": 659.57,
+      "stock": 170,
+      "img_path": "images/products/tablet-compact-13.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Advanced Smartphone X6",
+      "description": "Experience the new standard with our advanced smartphone. Perfect for everyday use.",
+      "price": 938.36,
+      "stock": 36,
+      "img_path": "images/products/smartphone-advanced-6.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Advanced Smartwatch X4",
+      "description": "Experience the new standard with our advanced smartwatch. Perfect for everyday use.",
+      "price": 1073.24,
+      "stock": 59,
+      "img_path": "images/products/smartwatch-advanced-4.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Ultra Smartphone X1",
+      "description": "Experience the new standard with our ultra smartphone. Perfect for everyday use.",
+      "price": 311.57,
+      "stock": 108,
+      "img_path": "images/products/smartphone-ultra-1.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Elite Smartwatch X7",
+      "description": "Experience the new standard with our elite smartwatch. Perfect for everyday use.",
+      "price": 1144.7,
+      "stock": 274,
+      "img_path": "images/products/smartwatch-elite-7.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Max Bluetooth Speaker X5",
+      "description": "Experience the new standard with our max bluetooth speaker. Perfect for everyday use.",
+      "price": 1170.01,
+      "stock": 34,
+      "img_path": "images/products/bluetooth-speaker-max-5.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Pro Bluetooth Speaker X12",
+      "description": "Experience the new standard with our pro bluetooth speaker. Perfect for everyday use.",
+      "price": 1076.32,
+      "stock": 232,
+      "img_path": "images/products/bluetooth-speaker-pro-12.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Lite Wireless Earbuds X10",
+      "description": "Experience the new standard with our lite wireless earbuds. Perfect for everyday use.",
+      "price": 967.2,
+      "stock": 198,
+      "img_path": "images/products/wireless-earbuds-lite-10.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Advanced Smartwatch X15",
+      "description": "Experience the new standard with our advanced smartwatch. Perfect for everyday use.",
+      "price": 832.78,
+      "stock": 7,
+      "img_path": "images/products/smartwatch-advanced-15.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Essential Smartphone X7",
+      "description": "Experience the new standard with our essential smartphone. Perfect for everyday use.",
+      "price": 721.92,
+      "stock": 187,
+      "img_path": "images/products/smartphone-essential-7.jpg",
+      "category_name": "Electronics"
+    },
+    {
+      "name": "Premium Electric Kettle X11",
+      "description": "Experience the new standard with our premium electric kettle. Perfect for everyday use.",
+      "price": 328.65,
+      "stock": 246,
+      "img_path": "images/products/electric-kettle-premium-11.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Essential Coffee Maker X15",
+      "description": "Experience the new standard with our essential coffee maker. Perfect for everyday use.",
+      "price": 167.36,
+      "stock": 89,
+      "img_path": "images/products/coffee-maker-essential-15.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Elite Microwave X15",
+      "description": "Experience the new standard with our elite microwave. Perfect for everyday use.",
+      "price": 217.35,
+      "stock": 138,
+      "img_path": "images/products/microwave-elite-15.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Max Blender X2",
+      "description": "Experience the new standard with our max blender. Perfect for everyday use.",
+      "price": 232.24,
+      "stock": 127,
+      "img_path": "images/products/blender-max-2.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Max Microwave X12",
+      "description": "Experience the new standard with our max microwave. Perfect for everyday use.",
+      "price": 232.19,
+      "stock": 220,
+      "img_path": "images/products/microwave-max-12.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Lite Electric Kettle X15",
+      "description": "Experience the new standard with our lite electric kettle. Perfect for everyday use.",
+      "price": 326.79,
+      "stock": 41,
+      "img_path": "images/products/electric-kettle-lite-15.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Advanced Coffee Maker X9",
+      "description": "Experience the new standard with our advanced coffee maker. Perfect for everyday use.",
+      "price": 315.43,
+      "stock": 209,
+      "img_path": "images/products/coffee-maker-advanced-9.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Advanced Electric Kettle X5",
+      "description": "Experience the new standard with our advanced electric kettle. Perfect for everyday use.",
+      "price": 185.17,
+      "stock": 105,
+      "img_path": "images/products/electric-kettle-advanced-5.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Max Coffee Maker X3",
+      "description": "Experience the new standard with our max coffee maker. Perfect for everyday use.",
+      "price": 324.08,
+      "stock": 103,
+      "img_path": "images/products/coffee-maker-max-3.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Smart Robot Vacuum X10",
+      "description": "Experience the new standard with our smart robot vacuum. Perfect for everyday use.",
+      "price": 452.84,
+      "stock": 296,
+      "img_path": "images/products/robot-vacuum-smart-10.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Elite Electric Kettle X15",
+      "description": "Experience the new standard with our elite electric kettle. Perfect for everyday use.",
+      "price": 168.27,
+      "stock": 131,
+      "img_path": "images/products/electric-kettle-elite-15.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Lite Toaster X5",
+      "description": "Experience the new standard with our lite toaster. Perfect for everyday use.",
+      "price": 231.68,
+      "stock": 277,
+      "img_path": "images/products/toaster-lite-5.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Compact Coffee Maker X15",
+      "description": "Experience the new standard with our compact coffee maker. Perfect for everyday use.",
+      "price": 349.61,
+      "stock": 16,
+      "img_path": "images/products/coffee-maker-compact-15.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Elite Robot Vacuum X6",
+      "description": "Experience the new standard with our elite robot vacuum. Perfect for everyday use.",
+      "price": 169.61,
+      "stock": 239,
+      "img_path": "images/products/robot-vacuum-elite-6.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Lite Coffee Maker X13",
+      "description": "Experience the new standard with our lite coffee maker. Perfect for everyday use.",
+      "price": 79.01,
+      "stock": 75,
+      "img_path": "images/products/coffee-maker-lite-13.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Pro Toaster X5",
+      "description": "Experience the new standard with our pro toaster. Perfect for everyday use.",
+      "price": 81.47,
+      "stock": 247,
+      "img_path": "images/products/toaster-pro-5.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Pro Blender X15",
+      "description": "Experience the new standard with our pro blender. Perfect for everyday use.",
+      "price": 402.77,
+      "stock": 272,
+      "img_path": "images/products/blender-pro-15.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Compact Robot Vacuum X11",
+      "description": "Experience the new standard with our compact robot vacuum. Perfect for everyday use.",
+      "price": 283.0,
+      "stock": 273,
+      "img_path": "images/products/robot-vacuum-compact-11.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Lite Robot Vacuum X8",
+      "description": "Experience the new standard with our lite robot vacuum. Perfect for everyday use.",
+      "price": 363.87,
+      "stock": 68,
+      "img_path": "images/products/robot-vacuum-lite-8.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Elite Robot Vacuum X3",
+      "description": "Experience the new standard with our elite robot vacuum. Perfect for everyday use.",
+      "price": 117.96,
+      "stock": 71,
+      "img_path": "images/products/robot-vacuum-elite-3.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Compact Coffee Maker X4",
+      "description": "Experience the new standard with our compact coffee maker. Perfect for everyday use.",
+      "price": 57.17,
+      "stock": 232,
+      "img_path": "images/products/coffee-maker-compact-4.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Advanced Toaster X3",
+      "description": "Experience the new standard with our advanced toaster. Perfect for everyday use.",
+      "price": 298.87,
+      "stock": 60,
+      "img_path": "images/products/toaster-advanced-3.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Advanced Robot Vacuum X15",
+      "description": "Experience the new standard with our advanced robot vacuum. Perfect for everyday use.",
+      "price": 53.31,
+      "stock": 59,
+      "img_path": "images/products/robot-vacuum-advanced-15.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Pro Robot Vacuum X4",
+      "description": "Experience the new standard with our pro robot vacuum. Perfect for everyday use.",
+      "price": 417.13,
+      "stock": 284,
+      "img_path": "images/products/robot-vacuum-pro-4.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Max Toaster X6",
+      "description": "Experience the new standard with our max toaster. Perfect for everyday use.",
+      "price": 342.84,
+      "stock": 239,
+      "img_path": "images/products/toaster-max-6.jpg",
+      "category_name": "Home Appliances"
+    },
+    {
+      "name": "Smart Phone Case X4",
+      "description": "Experience the new standard with our smart phone case. Perfect for everyday use.",
+      "price": 9.91,
+      "stock": 181,
+      "img_path": "images/products/phone-case-smart-4.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Premium Power Bank X9",
+      "description": "Experience the new standard with our premium power bank. Perfect for everyday use.",
+      "price": 23.65,
+      "stock": 163,
+      "img_path": "images/products/power-bank-premium-9.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Max Laptop Sleeve X9",
+      "description": "Experience the new standard with our max laptop sleeve. Perfect for everyday use.",
+      "price": 40.71,
+      "stock": 230,
+      "img_path": "images/products/laptop-sleeve-max-9.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Max Power Bank X4",
+      "description": "Experience the new standard with our max power bank. Perfect for everyday use.",
+      "price": 55.73,
+      "stock": 81,
+      "img_path": "images/products/power-bank-max-4.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Lite Power Bank X5",
+      "description": "Experience the new standard with our lite power bank. Perfect for everyday use.",
+      "price": 12.46,
+      "stock": 93,
+      "img_path": "images/products/power-bank-lite-5.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Premium Power Bank X7",
+      "description": "Experience the new standard with our premium power bank. Perfect for everyday use.",
+      "price": 19.9,
+      "stock": 135,
+      "img_path": "images/products/power-bank-premium-7.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Premium Fast Charger X8",
+      "description": "Experience the new standard with our premium fast charger. Perfect for everyday use.",
+      "price": 50.34,
+      "stock": 189,
+      "img_path": "images/products/fast-charger-premium-8.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Lite Screen Protector X1",
+      "description": "Experience the new standard with our lite screen protector. Perfect for everyday use.",
+      "price": 53.56,
+      "stock": 234,
+      "img_path": "images/products/screen-protector-lite-1.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Max Phone Case X3",
+      "description": "Experience the new standard with our max phone case. Perfect for everyday use.",
+      "price": 16.2,
+      "stock": 267,
+      "img_path": "images/products/phone-case-max-3.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Essential Power Bank X1",
+      "description": "Experience the new standard with our essential power bank. Perfect for everyday use.",
+      "price": 50.08,
+      "stock": 6,
+      "img_path": "images/products/power-bank-essential-1.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Advanced Screen Protector X10",
+      "description": "Experience the new standard with our advanced screen protector. Perfect for everyday use.",
+      "price": 52.93,
+      "stock": 21,
+      "img_path": "images/products/screen-protector-advanced-10.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Premium Phone Case X11",
+      "description": "Experience the new standard with our premium phone case. Perfect for everyday use.",
+      "price": 27.85,
+      "stock": 101,
+      "img_path": "images/products/phone-case-premium-11.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Smart Laptop Sleeve X2",
+      "description": "Experience the new standard with our smart laptop sleeve. Perfect for everyday use.",
+      "price": 25.39,
+      "stock": 42,
+      "img_path": "images/products/laptop-sleeve-smart-2.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Smart Power Bank X15",
+      "description": "Experience the new standard with our smart power bank. Perfect for everyday use.",
+      "price": 17.84,
+      "stock": 235,
+      "img_path": "images/products/power-bank-smart-15.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Smart Phone Case X10",
+      "description": "Experience the new standard with our smart phone case. Perfect for everyday use.",
+      "price": 51.09,
+      "stock": 252,
+      "img_path": "images/products/phone-case-smart-10.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Essential USB-C Cable X1",
+      "description": "Experience the new standard with our essential usb-c cable. Perfect for everyday use.",
+      "price": 37.19,
+      "stock": 86,
+      "img_path": "images/products/usb-c-cable-essential-1.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Advanced Fast Charger X12",
+      "description": "Experience the new standard with our advanced fast charger. Perfect for everyday use.",
+      "price": 39.67,
+      "stock": 142,
+      "img_path": "images/products/fast-charger-advanced-12.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Essential Phone Case X5",
+      "description": "Experience the new standard with our essential phone case. Perfect for everyday use.",
+      "price": 46.48,
+      "stock": 40,
+      "img_path": "images/products/phone-case-essential-5.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Max Fast Charger X5",
+      "description": "Experience the new standard with our max fast charger. Perfect for everyday use.",
+      "price": 20.25,
+      "stock": 207,
+      "img_path": "images/products/fast-charger-max-5.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Lite Power Bank X11",
+      "description": "Experience the new standard with our lite power bank. Perfect for everyday use.",
+      "price": 57.01,
+      "stock": 214,
+      "img_path": "images/products/power-bank-lite-11.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Ultra Phone Case X13",
+      "description": "Experience the new standard with our ultra phone case. Perfect for everyday use.",
+      "price": 44.78,
+      "stock": 285,
+      "img_path": "images/products/phone-case-ultra-13.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Elite Power Bank X6",
+      "description": "Experience the new standard with our elite power bank. Perfect for everyday use.",
+      "price": 18.39,
+      "stock": 299,
+      "img_path": "images/products/power-bank-elite-6.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Lite Phone Case X4",
+      "description": "Experience the new standard with our lite phone case. Perfect for everyday use.",
+      "price": 38.8,
+      "stock": 161,
+      "img_path": "images/products/phone-case-lite-4.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Pro Power Bank X8",
+      "description": "Experience the new standard with our pro power bank. Perfect for everyday use.",
+      "price": 43.83,
+      "stock": 254,
+      "img_path": "images/products/power-bank-pro-8.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Compact Laptop Sleeve X9",
+      "description": "Experience the new standard with our compact laptop sleeve. Perfect for everyday use.",
+      "price": 57.61,
+      "stock": 171,
+      "img_path": "images/products/laptop-sleeve-compact-9.jpg",
+      "category_name": "Accessories"
+    },
+    {
+      "name": "Advanced Gaming Mouse X4",
+      "description": "Experience the new standard with our advanced gaming mouse. Perfect for everyday use.",
+      "price": 498.49,
+      "stock": 252,
+      "img_path": "images/products/gaming-mouse-advanced-4.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Smart Console X14",
+      "description": "Experience the new standard with our smart console. Perfect for everyday use.",
+      "price": 672.7,
+      "stock": 244,
+      "img_path": "images/products/console-smart-14.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Ultra Console X2",
+      "description": "Experience the new standard with our ultra console. Perfect for everyday use.",
+      "price": 488.13,
+      "stock": 101,
+      "img_path": "images/products/console-ultra-2.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Elite Gaming Headset X9",
+      "description": "Experience the new standard with our elite gaming headset. Perfect for everyday use.",
+      "price": 348.0,
+      "stock": 90,
+      "img_path": "images/products/gaming-headset-elite-9.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Pro Mousepad X3",
+      "description": "Experience the new standard with our pro mousepad. Perfect for everyday use.",
+      "price": 110.59,
+      "stock": 178,
+      "img_path": "images/products/mousepad-pro-3.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Max Mousepad X2",
+      "description": "Experience the new standard with our max mousepad. Perfect for everyday use.",
+      "price": 87.29,
+      "stock": 117,
+      "img_path": "images/products/mousepad-max-2.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Pro Gaming Headset X14",
+      "description": "Experience the new standard with our pro gaming headset. Perfect for everyday use.",
+      "price": 101.58,
+      "stock": 293,
+      "img_path": "images/products/gaming-headset-pro-14.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Lite Gaming Mouse X10",
+      "description": "Experience the new standard with our lite gaming mouse. Perfect for everyday use.",
+      "price": 73.58,
+      "stock": 27,
+      "img_path": "images/products/gaming-mouse-lite-10.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Elite Gaming Headset X11",
+      "description": "Experience the new standard with our elite gaming headset. Perfect for everyday use.",
+      "price": 442.47,
+      "stock": 218,
+      "img_path": "images/products/gaming-headset-elite-11.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Pro Mousepad X5",
+      "description": "Experience the new standard with our pro mousepad. Perfect for everyday use.",
+      "price": 438.81,
+      "stock": 184,
+      "img_path": "images/products/mousepad-pro-5.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Advanced Gaming Headset X3",
+      "description": "Experience the new standard with our advanced gaming headset. Perfect for everyday use.",
+      "price": 612.76,
+      "stock": 100,
+      "img_path": "images/products/gaming-headset-advanced-3.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Premium Console X8",
+      "description": "Experience the new standard with our premium console. Perfect for everyday use.",
+      "price": 216.28,
+      "stock": 66,
+      "img_path": "images/products/console-premium-8.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Advanced Gaming Headset X10",
+      "description": "Experience the new standard with our advanced gaming headset. Perfect for everyday use.",
+      "price": 642.41,
+      "stock": 182,
+      "img_path": "images/products/gaming-headset-advanced-10.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Essential Mechanical Keyboard X2",
+      "description": "Experience the new standard with our essential mechanical keyboard. Perfect for everyday use.",
+      "price": 65.24,
+      "stock": 52,
+      "img_path": "images/products/mechanical-keyboard-essential-2.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Smart Console X15",
+      "description": "Experience the new standard with our smart console. Perfect for everyday use.",
+      "price": 685.26,
+      "stock": 176,
+      "img_path": "images/products/console-smart-15.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Premium Gaming Mouse X13",
+      "description": "Experience the new standard with our premium gaming mouse. Perfect for everyday use.",
+      "price": 390.42,
+      "stock": 231,
+      "img_path": "images/products/gaming-mouse-premium-13.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Lite Gaming Mouse X12",
+      "description": "Experience the new standard with our lite gaming mouse. Perfect for everyday use.",
+      "price": 119.58,
+      "stock": 87,
+      "img_path": "images/products/gaming-mouse-lite-12.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Elite Gaming Mouse X5",
+      "description": "Experience the new standard with our elite gaming mouse. Perfect for everyday use.",
+      "price": 98.89,
+      "stock": 237,
+      "img_path": "images/products/gaming-mouse-elite-5.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Lite Mousepad X6",
+      "description": "Experience the new standard with our lite mousepad. Perfect for everyday use.",
+      "price": 43.07,
+      "stock": 77,
+      "img_path": "images/products/mousepad-lite-6.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Ultra Gaming Headset X2",
+      "description": "Experience the new standard with our ultra gaming headset. Perfect for everyday use.",
+      "price": 63.53,
+      "stock": 293,
+      "img_path": "images/products/gaming-headset-ultra-2.jpg",
+      "category_name": "Gaming"
+    },
+    {
+      "name": "Advanced Smart Plug X3",
+      "description": "Experience the new standard with our advanced smart plug. Perfect for everyday use.",
+      "price": 25.27,
+      "stock": 290,
+      "img_path": "images/products/smart-plug-advanced-3.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Lite Security Camera X14",
+      "description": "Experience the new standard with our lite security camera. Perfect for everyday use.",
+      "price": 101.72,
+      "stock": 236,
+      "img_path": "images/products/security-camera-lite-14.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Smart Smart Bulb X1",
+      "description": "Experience the new standard with our smart smart bulb. Perfect for everyday use.",
+      "price": 26.11,
+      "stock": 122,
+      "img_path": "images/products/smart-bulb-smart-1.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Lite Smart Plug X4",
+      "description": "Experience the new standard with our lite smart plug. Perfect for everyday use.",
+      "price": 63.2,
+      "stock": 272,
+      "img_path": "images/products/smart-plug-lite-4.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Elite Smart Thermostat X9",
+      "description": "Experience the new standard with our elite smart thermostat. Perfect for everyday use.",
+      "price": 83.2,
+      "stock": 117,
+      "img_path": "images/products/smart-thermostat-elite-9.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Compact Doorbell Camera X5",
+      "description": "Experience the new standard with our compact doorbell camera. Perfect for everyday use.",
+      "price": 200.02,
+      "stock": 219,
+      "img_path": "images/products/doorbell-camera-compact-5.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Pro Smart Plug X4",
+      "description": "Experience the new standard with our pro smart plug. Perfect for everyday use.",
+      "price": 112.54,
+      "stock": 115,
+      "img_path": "images/products/smart-plug-pro-4.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Ultra Smart Bulb X6",
+      "description": "Experience the new standard with our ultra smart bulb. Perfect for everyday use.",
+      "price": 54.41,
+      "stock": 197,
+      "img_path": "images/products/smart-bulb-ultra-6.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Advanced Smart Thermostat X9",
+      "description": "Experience the new standard with our advanced smart thermostat. Perfect for everyday use.",
+      "price": 187.75,
+      "stock": 24,
+      "img_path": "images/products/smart-thermostat-advanced-9.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Essential Security Camera X8",
+      "description": "Experience the new standard with our essential security camera. Perfect for everyday use.",
+      "price": 66.67,
+      "stock": 214,
+      "img_path": "images/products/security-camera-essential-8.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Elite Smart Plug X14",
+      "description": "Experience the new standard with our elite smart plug. Perfect for everyday use.",
+      "price": 215.4,
+      "stock": 161,
+      "img_path": "images/products/smart-plug-elite-14.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Ultra Security Camera X14",
+      "description": "Experience the new standard with our ultra security camera. Perfect for everyday use.",
+      "price": 213.64,
+      "stock": 143,
+      "img_path": "images/products/security-camera-ultra-14.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Compact Doorbell Camera X7",
+      "description": "Experience the new standard with our compact doorbell camera. Perfect for everyday use.",
+      "price": 219.22,
+      "stock": 141,
+      "img_path": "images/products/doorbell-camera-compact-7.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Premium Security Camera X6",
+      "description": "Experience the new standard with our premium security camera. Perfect for everyday use.",
+      "price": 214.66,
+      "stock": 173,
+      "img_path": "images/products/security-camera-premium-6.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Essential Smart Bulb X10",
+      "description": "Experience the new standard with our essential smart bulb. Perfect for everyday use.",
+      "price": 163.07,
+      "stock": 60,
+      "img_path": "images/products/smart-bulb-essential-10.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Premium Security Camera X12",
+      "description": "Experience the new standard with our premium security camera. Perfect for everyday use.",
+      "price": 184.77,
+      "stock": 261,
+      "img_path": "images/products/security-camera-premium-12.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Elite Security Camera X15",
+      "description": "Experience the new standard with our elite security camera. Perfect for everyday use.",
+      "price": 60.06,
+      "stock": 80,
+      "img_path": "images/products/security-camera-elite-15.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Essential Smart Bulb X7",
+      "description": "Experience the new standard with our essential smart bulb. Perfect for everyday use.",
+      "price": 225.94,
+      "stock": 267,
+      "img_path": "images/products/smart-bulb-essential-7.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Ultra Doorbell Camera X4",
+      "description": "Experience the new standard with our ultra doorbell camera. Perfect for everyday use.",
+      "price": 169.33,
+      "stock": 145,
+      "img_path": "images/products/doorbell-camera-ultra-4.jpg",
+      "category_name": "Smart Home"
+    },
+    {
+      "name": "Premium Smart Bulb X3",
+      "description": "Experience the new standard with our premium smart bulb. Perfect for everyday use.",
+      "price": 101.25,
+      "stock": 86,
+      "img_path": "images/products/smart-bulb-premium-3.jpg",
+      "category_name": "Smart Home"
+    }
+  ]
+}
